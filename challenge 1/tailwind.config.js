@@ -18,6 +18,8 @@ module.exports = {
     },
     extend: {
       colors: {
+        "main":"#054bb4",
+        "secondary": "#bcff5f",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -26,10 +28,6 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -51,6 +49,9 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"]
       },
       borderRadius: {
         lg: "var(--radius)",
